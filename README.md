@@ -1,12 +1,69 @@
-# React + Vite
+# 🎯 Goal Tracker  
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A **feature-rich Goal Tracking App** built with **React.js** to help you manage your goals, deadlines, priorities, categories, and sub-tasks efficiently.  
 
-Currently, two official plugins are available:
+Stay productive, stay organized 🚀  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## ✨ Features  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 📝 Goal Management  
+- ➕ Add new goals with **title, due date, priority, and category**  
+- ✏️ Edit goals anytime  
+- ✅ Mark goals as **Complete/Undo**  
+- 🗑️ Delete goals with confirmation  
+- 📦 Archive and Restore goals  
+
+### 📂 Sub-Tasks  
+- ➕ Add sub-tasks under a goal  
+- ✅ Mark sub-tasks as complete/undo  
+- ✏️ Edit or delete sub-tasks  
+- 📊 Progress bar shows completion percentage  
+
+### 🗂 Categories & Filters  
+- 📌 Categories: **Personal, Work, Study, Health**  
+- 🔍 Search goals by text  
+- 🗂 Filter by category  
+
+### ⚡ Sorting  
+- 📌 Sort by **Priority (🔥 High, ⚡ Medium, 💧 Low)**  
+- 📅 Sort by **Due Date**  
+- 🔤 Sort **Alphabetically**  
+- 🔄 Toggle Ascending ⬆️ / Descending ⬇️  
+
+### 📦 Archive System  
+- 📦 Archive goals instead of deleting  
+- 👀 Switch between **Active Goals** and **Archived Goals**  
+
+### 📊 Dashboard & Stats  
+- 📌 Total goals count  
+- ✅ Completed vs Pending goals  
+- 📈 Completion percentage  
+
+### 🔔 Reminders & Notifications  
+- ⏰ Browser notifications for **goals due today**  
+- 🔔 Manual reminders for any goal  
+
+### 🎨 User Interface  
+- 🌞🌙 Light/Dark theme toggle  
+- 🎯 Priority-based styling  
+
+### 💾 Data Handling  
+- 💾 Save goals in **localStorage**  
+- 📤 Export goals as JSON file  
+- 📥 Import goals from JSON file  
+
+---
+
+## 🖼️ Screenshot  
+
+![Goal Tracker Screenshot]([./Goal.png](https://drive.google.com/file/d/18oQhsYFBuLizt26tqbwEbs574uOIWdw6/view?usp=sharing))  
+
+---
+
+## 🚀 Getting Started  
+
+### 1️⃣ Clone the repository  
+```bash
+git clone https://github.com/your-username/goal-tracker.git
